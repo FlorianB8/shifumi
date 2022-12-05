@@ -244,6 +244,7 @@ function resetStats() {
     nbDraw = 0;
     nbParty = 0;
     nbLose = 0;
+    nbWin = 0;
     resultBot.innerHTML = "";
     resultParty.innerHTML = "";
     resultPlayer.innerHTML = "";
