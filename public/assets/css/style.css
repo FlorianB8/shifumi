@@ -1,0 +1,137 @@
+img{
+    width: 90px;
+}
+.imgChoice {
+    width: 100px;
+    transition-duration: 1s;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 3rem;
+}
+
+@keyframes mymove {
+    0% {width: 0%;}
+    100% {width: 99%;}
+}
+.enter{
+    animation: mymove 0.5s;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Minecraft', sans-serif;
+}
+.bg-brick {
+    background-image: url(/public/assets/img/ardoise.webp);
+    background-size: 25%; 
+}
+
+.sign {
+    height: 90%;    
+    background-image: url(/public/assets/img/sign.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+
+.black {
+    color: black;
+    font-size: 1.5rem;
+}
+
+#victoryStat, #drawStat, #loseStat {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.button{
+    height: 40px;
+    width: 305px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background: url('/public/assets/img/btn1.png') no-repeat;
+    line-height: 26px;
+    padding-top: 6px;
+}
+
+.button:hover{
+    background: url('/public/assets/img/btn2.png') no-repeat;
+}
+
+.imgChoice:hover {
+    width: 120px;
+}
+
+header {
+    box-shadow: 0px 2px 10px black;
+}
+
+@keyframes itemMove {
+    0% {
+      padding-top: 0%;
+    }
+    50% {
+      padding-top: 10%;
+    }
+    100%{
+        padding-top: 0%;
+    }
+  }
+@media screen and (max-width: 1500px) {
+    #divGame {
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1500px) {
+    #divGame {
+        height: 70vh;
+    }
+    @keyframes heartMove {
+        0% {
+            padding-top: 0%;
+            padding-bottom: 0%;
+        }
+        50% {
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        100%{
+            padding-top: 0%;
+            padding-bottom: 0%;
+        }
+      }
+    .item {
+        animation-duration: 3s;
+        animation-name: itemMove;
+        animation-iteration-count: infinite;
+    }
+    .item2 {
+        animation-duration: 3.5s;
+        animation-name: itemMove;
+        animation-iteration-count: infinite;
+    }
+    .item3 {
+        animation-duration: 2s;
+        animation-name: heartMove;
+        animation-iteration-count: infinite;
+    }
+}
+
+.red {
+    color: #761525;
+}
+
+.green {
+    color: #63C15B;
+}
+
