@@ -68,9 +68,7 @@ body {
     background: url(../img/btn2.png) no-repeat;
 }
 
-.imgChoice:hover {
-    width: 120px;
-}
+
 
 header {
     box-shadow: 0px 2px 10px black;
@@ -95,6 +93,9 @@ header {
 @media screen and (min-width: 1500px) {
     #divGame {
         height: 70vh;
+    }
+    .imgChoice:hover {
+        width: 120px;
     }
     @keyframes heartMove {
         0% {
