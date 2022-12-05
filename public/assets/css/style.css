@@ -25,13 +25,13 @@ body {
     font-family: 'Minecraft', sans-serif;
 }
 .bg-brick {
-    background-image: url(/public/assets/img/ardoise.webp);
+    background-image: url(../img/ardoise.webp);
     background-size: 25%; 
 }
 
 .sign {
     height: 90%;    
-    background-image: url(/public/assets/img/sign.png);
+    background-image: url(../img/sign.png);
     background-size: 100% 90%;
     background-repeat: no-repeat;
 }
@@ -59,13 +59,13 @@ body {
     text-align: center;
     color: white;
     cursor: pointer;
-    background: url(/public/assets/img/btn1.png) no-repeat;
+    background: url(../img/btn1.png) no-repeat;
     line-height: 26px;
     padding-top: 6px;
 }
 
 .button:hover{
-    background: url(/public/assets/img/btn2.png) no-repeat;
+    background: url(../img/btn2.png) no-repeat;
 }
 
 .imgChoice:hover {
