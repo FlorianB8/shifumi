@@ -134,7 +134,7 @@ buttons.forEach(button => {
                 resultParty.innerHTML = "Egalite";
                 resultParty.className = "text-secondary enter";
                 nbDraw++;
-                drawStat.innerHTML = `Egalite(s) : <span class="text-secondary">${nbDraw}<span>`;
+                drawStat.innerHTML = `Egalite : <span class="text-secondary">${nbDraw}<span>`;
                 anvil.play();
             }, 4000)
             
@@ -146,7 +146,7 @@ buttons.forEach(button => {
                 resultParty.innerHTML = "Victoire";
                 resultParty.className = "green enter";
                 nbWin++;
-                victoryStat.innerHTML = `Victoire(s) : <span class="text-success">${nbWin}<span>`;
+                victoryStat.innerHTML = `Victoire : <span class="text-success">${nbWin}<span>`;
 
                 // Modification des coeurs dès que l'on perd une manche
 
@@ -196,7 +196,7 @@ buttons.forEach(button => {
                 resultParty.innerHTML = "Defaite";
                 resultParty.className = "red enter";
                 nbLose++;
-                loseStat.innerHTML = `Defaite(s) : <span class="text-danger">${nbLose}<span>`;
+                loseStat.innerHTML = `Defaite : <span class="text-danger">${nbLose}<span>`;
 
                 // Modification des coeurs dès que l'on perd une manche
                 if(nbLose == 1){
