@@ -55,13 +55,9 @@ body {
 .button{
     height: 40px;
     width: 305px;
-    text-decoration: none;
     text-align: center;
-    color: white;
     cursor: pointer;
     background: url(../img/btn1.png) no-repeat;
-    line-height: 26px;
-    padding-top: 6px;
 }
 
 .button:hover{

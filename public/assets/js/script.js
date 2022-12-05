@@ -267,7 +267,7 @@ function resetStats() {
     heart1.classList.remove('item3');
     heart2.classList.remove('item3');
     heart4.classList.remove('item3');
-    heart5.classList.remove('item3');
+    heart5.classList.remove('item3');   
 
 }
 
